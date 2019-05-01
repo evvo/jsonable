@@ -1,0 +1,9 @@
+name: jsonable
+version: 0.1.0
+
+authors:
+  - Evtimiy Mihaylov <evo@vaupe.com>
+
+crystal: 0.28.0
+
+license: MIT
