@@ -1,4 +1,4 @@
-# jsonable
+# Jsonable
 
 Json helper that will simplify common json outputs for objects.
 It can help you build and scaffold JSON APIs faster, by providing simple to use json mappings.
