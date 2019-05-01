@@ -26,7 +26,6 @@ end
 
 user = User.new
 user.get_json # { "test_field" : ["string1", "string2"] }
-
 ```
 
 The `public_json_fields` are the fields that will be included when you call the `get_json` method.
@@ -44,12 +43,11 @@ user = User.new
 user2 = User.new
 
 User.get_json_collection([user, user2]) # [{ "test_field_for_collection" : ["string1", "string2"] } ...]
-
 ```
 
 ## Testing
 
-You can run the tests, by executing
+You can run the tests by executing:
 
 ```console
 foo@bar:~$ crystal spec
